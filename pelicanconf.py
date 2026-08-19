@@ -1,6 +1,6 @@
 AUTHOR = 'j'
-SITENAME = '어제보다 오늘 - '
-SITEURL = 'https://username.github.io/my-blog'
+SITENAME = '어제보다 오늘 - Better Than Yesterday'
+SITEURL = 'https://camellia-ve.github.io/my-blog'
 
 PATH = "content"
 
