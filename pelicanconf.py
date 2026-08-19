@@ -1,6 +1,6 @@
 AUTHOR = 'j'
 SITENAME = '어제보다 오늘 - Better Than Yesterday'
-SITEURL = 'https://camellia-ve.github.io/better-than-yesterday'
+# SITEURL = 'https://camellia-ve.github.io/better-than-yesterday'
 
 PATH = "content"
 
@@ -30,6 +30,9 @@ SOCIAL = [
 ]
 
 DEFAULT_PAGINATION = 10
+
+THEME = './theme'
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
