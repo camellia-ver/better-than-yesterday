@@ -17,6 +17,7 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images']
+FAVICON = 'images/favicon.ico'
 SITELOGO = 'images/logo.png'
 # Following items are often useful when publishing
 

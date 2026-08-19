@@ -32,6 +32,7 @@ THEME = './theme'
 STATIC_PATHS = ['images']
 SITELOGO = 'images/logo.png'
 SITELOGO_SIZE = 100  
+FAVICON = 'images/favicon.ico'
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
