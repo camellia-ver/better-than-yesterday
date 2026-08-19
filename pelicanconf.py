@@ -29,6 +29,9 @@ DEFAULT_PAGINATION = 10
 
 THEME = './theme'
 
+STATIC_PATHS = ['images']
+SITELOGO = 'images/logo.png'
+SITELOGO_SIZE = 100  
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
