@@ -17,12 +17,12 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images']
-FAVICON = 'images/favicon.ico'
+FAVICON = SITEURL + '/images/logo.png'
 SITELOGO = 'images/logo.png'
 
 SITETITLE = 'Orchid' 
 SITESUBTITLE = '커피와 코드를 좋아합니다'
-SITEDESCRIPTION = '공부한 것을 정리한 내용을 올립니다.' 
+SITEDESCRIPTION = '공부한 내용을 올립니다.' 
 # Following items are often useful when publishing
 
 # DISQUS_SITENAME = ""
