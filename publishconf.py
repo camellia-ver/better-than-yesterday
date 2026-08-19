@@ -17,8 +17,8 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images']
-FAVICON = SITEURL + '/images/logo.png'
-SITELOGO = 'images/logo.png'
+FAVICON = 'images/favicon.ico'
+SITELOGO = SITEURL + '/images/logo.png'
 
 SITETITLE = 'Orchid' 
 SITESUBTITLE = '커피와 코드를 좋아합니다'
