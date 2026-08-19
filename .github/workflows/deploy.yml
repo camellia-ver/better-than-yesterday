@@ -32,7 +32,12 @@ jobs:
         run: pip install pelican markdown
 
       - name: Build site
-        run: pelican content -o output -s publishconf.py
+        run: |
+          pelican content -o output -s publishconf.py
+          echo "===== output 폴더 전체 구조 ====="
+          find output -maxdepth 3
+          echo "===== CSS 파일 목록 ====="
+          find output -name "*.css"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
